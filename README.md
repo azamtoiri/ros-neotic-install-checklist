@@ -43,7 +43,17 @@ sudo rosdep init
 rosdep update
 ```
 
-## 8. Check ros
+# Test ros
 ```shell
 roscore
 ```
+### Run on another terminal
+```shell
+rosrun turtlesim turtlesim_node
+```
+### One more terminal
+```shell
+rosrun turtlesim turtle_teleop_key
+```
+
+
